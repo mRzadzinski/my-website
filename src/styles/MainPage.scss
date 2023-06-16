@@ -1,0 +1,48 @@
+.MainPage {
+	flex-grow: 1;
+	display: flex;
+
+	width: 100%;
+}
+
+.main-left {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	gap: 7px;
+
+	width: 20vw;
+	min-width: 230px;
+
+	padding-left: 100px;
+	padding-right: 30px;
+	background-color: rgba(0, 0, 0, 0.74);
+
+	color: white;
+}
+
+.adv-title {
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.adv-content {
+	font-size: 20px;
+}
+
+#shop-now-btn {
+	margin-top: 20px;
+
+	width: 140px;
+	height: 42px;
+
+	border: none;
+	border-radius: 10px;
+
+	font-size: 17px;
+	font-weight: 700;
+
+	color: white;
+	background-color: #d52b1e;
+	cursor: pointer;
+}
