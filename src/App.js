@@ -2,7 +2,9 @@ import './styles/App.scss';
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import MainPage from './components/MainPage';
+import Portfolio from './components/Portfolio';
+import About from './components/About';
+import Resume from './components/Resume';
 
 function App() {
 	return (
@@ -10,7 +12,9 @@ function App() {
 			<Header />
 			<div className='content'>
 				<Routes>
-					<Route path='/' element={<MainPage />} />
+					<Route path='/' element={<Portfolio />} />
+					<Route path='/about' element={<About />} />
+					<Route path='/resume' element={<Resume />} />
 				</Routes>
 			</div>
 			<Footer />

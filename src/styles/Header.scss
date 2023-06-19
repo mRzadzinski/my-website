@@ -18,12 +18,19 @@ li {
 .title {
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 
 	margin-top: 39px;
 	margin-bottom: 39px;
-    margin-left: 30px;
+	margin-left: 30px;
 
 	font-size: 1rem;
+}
+
+.title-name {
+	margin-right: 2rem;
+	font-size: 0.95rem;
+	font-weight: 300;
 }
 
 nav {
@@ -34,7 +41,8 @@ nav {
 	height: 51px;
 	width: 100%;
 
-	font-size: 18px;
+	font-size: 1.3rem;
+	color: rgb(80, 80, 80);
 }
 
 .categories {
@@ -42,6 +50,8 @@ nav {
 	justify-content: center;
 	align-items: center;
 	height: 100%;
+
+	font-weight: 300;
 }
 
 .category-container {
@@ -51,5 +61,12 @@ nav {
 
 	width: 120px;
 	height: 100%;
+}
+
+li.category {
 	cursor: pointer;
+
+	&:hover {
+		text-decoration: underline;
+	}
 }
