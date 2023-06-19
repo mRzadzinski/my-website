@@ -1,0 +1,43 @@
+.Project {
+	margin: 1rem 4rem 0 4rem;
+    width: 60%;
+    max-width: 900px;
+}
+
+.project-img-container {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	width: 100%;
+}
+
+.project-image {
+	height: auto;
+	width: 100%;
+}
+
+.project-name {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+
+	font-size: 1.9rem;
+	font-weight: 400;
+}
+
+.project-description-container {
+    display: flex;
+    width: 100%;
+}
+
+.project-buttons-container {
+	display: flex;
+    flex-direction: column;
+
+    width: 30%;
+
+    margin-left: 5%;
+}
+
+.project-description {
+    width: 70%;
+}
