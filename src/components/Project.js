@@ -1,8 +1,7 @@
 import React from 'react';
 import '../styles/Project.scss';
-import projects from '../portfolio-data';
 
-const Project = () => {
+const Project = ({ project }) => {
 	function openInNewTab(url) {
 		window.open(url, '_blank').focus();
 	}
@@ -10,22 +9,23 @@ const Project = () => {
 	return (
 		<div className='Project'>
 			<div className='project-img-container'>
-				<img
-					className='project-image'
-					src={projects[0].img}
-					alt='project-img'
-				/>
+				<img className='project-image' src={project.img} alt='project-img' />
 			</div>
-			<div className='project-name'>{projects[0].name}</div>
+			<div className='project-name'>{project.name}</div>
 
 			<div className='project-description-container'>
-				<div className='project-description'>{projects[0].description}</div>
+				<div className='project-description'>{project.description}</div>
 				<div className='project-buttons-container'>
-					<button onClick={() => openInNewTab(projects[0].liveLink)}>
+					<button
+						className='project-link-btn'
+						onClick={() => openInNewTab(project.liveLink)}
+					>
 						Check live!
 					</button>
-					<br />
-					<button onClick={() => openInNewTab(projects[0].githubLink)}>
+					<button
+						className='project-link-btn'
+						onClick={() => openInNewTab(project.githubLink)}
+					>
 						Github repo
 					</button>
 				</div>
