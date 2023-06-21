@@ -1,5 +1,3 @@
-import tasksImg from './img/tasks.png';
-
 const projects = [
 	{
 		id: 1,
@@ -9,16 +7,15 @@ const projects = [
 			<div>
 				What melts my heart are thick, slightly overdriven, electric blues solos
 				from the 60s. That’s why the choice of what to offer in my mockup online
-				store was pretty easy.
+				store was easy.
 				<br />
 				<br />
 				Thought process:
 				<br />
-				How to render a particular component on the URL change? Oh, it's called
+				How to render a particular component on the url change? Oh, it's called
 				React Router... No problem!
 				<br />
-				How to filter products by given price range? I haven’t done it yet, but
-				give me a moment…
+				React Testing Library? I haven’t used it yet, but give me a moment…
 			</div>
 		),
 		liveLink: 'https://mrzadzinski.github.io/music-store/',
@@ -31,7 +28,7 @@ const projects = [
 		description: (
 			<div>
 				For this project I had to face a major challenge - namely, pick 30 of my
-				favorite music albums. And it was a fun way to practice REACT functional
+				favorite music albums. And it was a fun way to practice React functional
 				components with hooks.
 				<br />
 				<br />
@@ -47,8 +44,8 @@ const projects = [
 		img: 'https://raw.githubusercontent.com/mRzadzinski/cv-creator/main/src/img/screenshot.png',
 		description: (
 			<div>
-				CV creator it’s such a well-worn project idea that I needed some twist
-				to make it geek friendly (for myself of course). Thank you Obi Wan!
+				It’s such a well-worn project idea that I needed some twist
+				to make it geek friendly (for myself of course).
 				<br />
 				<br />
 				The point where I haven’t used any front end framework before.
@@ -56,11 +53,11 @@ const projects = [
 				...
 				<br />
 				What are: REACT, JSX, props, state, hooks, unidirectional data flow,
-				conditional rendering, class and functional components...?
+				conditional rendering, class and functional components?
 				<br />
 				...
 				<br />
-				And here we are, project finished.
+				Project finished.
 			</div>
 		),
 		liveLink: 'https://mrzadzinski.github.io/cv-creator/',
@@ -73,7 +70,7 @@ const projects = [
 		description: (
 			<div>
 				This moment when you lose a game with an algorithm you have written
-				yourself - priceless. How not to be excited/concerned about the current
+				yourself - invaluable. How not to be excited/concerned about the current
 				pace of AI development?
 			</div>
 		),
@@ -88,13 +85,10 @@ const projects = [
 			<div>
 				This code is a mess you say? I would agree.
 				<br />
-				I didn’t understand how to properly divide app into separate modules?
-				Yep.
-				<br />
-				That I’ve spent way too much time on it? Very likely.
+				Files could be shorter and more isolated? Correct.
 				<br />
 				But I resolved to make a replica of my favorite to-do list app and
-				couldn’t stop until it looked and worked (more or less) like the
+				couldn’t stop until it looked and worked (roughly) like the
 				archetype.
 				<br />
 				<br />
@@ -112,7 +106,7 @@ const projects = [
 		description: (
 			<div>
 				One of my first vanilla JS projects. After sketching it on paper it
-				turned out that I don't know how to implement approx. 95% of planned
+				turned out that I don't know how to implement approximately 95% of planned
 				features. Thanks to this experience I understood what this “problem
 				solving thing” actually is.
 			</div>
