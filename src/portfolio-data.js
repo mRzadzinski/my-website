@@ -13,7 +13,7 @@ const projects = [
 				Thought process:
 				<br />
 				How to render a particular component on the url change? Oh, it's called
-				React Router... No problem!
+				React Router... No problem.
 				<br />
 				React Testing Library? I haven’t used it yet, but give me a moment…
 			</div>
