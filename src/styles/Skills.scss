@@ -1,0 +1,68 @@
+.Skills {
+    width: 100%;
+    max-width: 900px;
+	padding: 0 4rem 4rem 4rem;
+}
+
+.skills-title {
+	width: 100%;
+	max-width: 900px;
+
+	margin-top: 2rem;
+	margin-bottom: 3rem;
+
+	font-size: 2.1rem;
+	font-weight: 500;
+}
+
+.skill-title {
+	width: 100%;
+	margin-top: 2.5rem;
+
+	font-size: 1.4rem;
+	font-weight: 500;
+	text-align: center;
+}
+
+.skills-container {
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+
+	width: 100%;
+	margin-top: 40px;
+}
+
+#jest-icon {
+	width: 100px;
+	height: 50px;
+	margin-top: 10px;
+	margin-left: -20px;
+}
+
+#webpack-icon{
+	margin-top: -30px;
+}
+
+#last-tech-row {
+	border-bottom: solid 1px rgb(227, 227, 227);
+}
+
+.languages-container {
+	display: flex;
+	justify-content: center;
+	gap: 60px;
+
+	margin-top: 40px;
+	padding-bottom: 3rem;
+
+	border-bottom: solid 1px rgb(227, 227, 227);
+}
+
+.flag {
+	width: 120px;
+	height: 75px;
+
+	border: 1px rgb(170, 168, 168) solid;
+	border-radius: 5px;
+}

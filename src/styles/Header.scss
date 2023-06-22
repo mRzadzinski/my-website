@@ -19,18 +19,18 @@ a:active {
 	align-items: center;
 	justify-content: space-between;
 
-	margin-top: 30px;
-	margin-bottom: 20px;
-	margin-left: 30px;
+	margin: 30px 30px 20px 30px;
 
 	font-size: 1rem;
 }
 
-.title-name {
-	margin-right: 2rem;
+
+.title-name, .contact-info {
 	font-size: 0.95rem;
 	font-weight: 300;
 }
+
+
 
 nav {
 	display: flex;

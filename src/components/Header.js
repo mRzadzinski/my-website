@@ -7,7 +7,10 @@ const Header = () => {
 		<div className='Header'>
 			<div className='title'>
 				<div className='title-name'>
-					<Link to='/'>maciej rzadzinski</Link>
+					<Link to='/about'>maciej rzadzinski</Link>
+				</div>
+				<div className='contact-info'>
+					<Link to='/contact'>contact</Link>
 				</div>
 			</div>
 			<nav>
@@ -23,8 +26,8 @@ const Header = () => {
 						</NavLink>
 					</div>
 					<div className='category-container'>
-						<NavLink to='/resume' className='navLink'>
-							<li className='category'>Resume</li>
+						<NavLink to='/skills' className='navLink'>
+							<li className='category'>Skills</li>
 						</NavLink>
 					</div>
 				</div>
