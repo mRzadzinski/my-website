@@ -39,15 +39,16 @@ const Skills = () => {
 			<div className='languages-container'>
 				<div className='language'>
 					<img className='flag' src={polishFlag} alt='polish-flag' />
-					<div className='language-name'>Polish</div>
-					<div className='language-level'>native</div>
+					<div className='language-name'>Polish Native</div>
 				</div>
 				<div className='language'>
 					<img className='flag' src={englishFlag} alt='english-flag' />
-					<div className='language-name'>English</div>
-					<div className='language-level'>C1</div>
+					<div className='language-name'>English C1</div>
 				</div>
 			</div>
+
+			<div className='skill-title'>Bonus</div>
+
 		</div>
 	);
 };
