@@ -6,6 +6,7 @@ import Portfolio from './components/Portfolio';
 import About from './components/About';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
+import Main from './components/Main';
 
 function App() {
 	return (
@@ -13,7 +14,8 @@ function App() {
 			<Header />
 			<div className='content'>
 				<Routes>
-					<Route path='/' element={<Portfolio />} />
+					<Route path='/' element={<Main />} />
+					<Route path='/portfolio' element={<Portfolio />} />
 					<Route path='/about' element={<About />} />
 					<Route path='/skills' element={<Skills />} />
 					<Route path='/contact' element={<Contact />} />

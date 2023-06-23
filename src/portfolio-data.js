@@ -44,20 +44,12 @@ const projects = [
 		img: 'https://raw.githubusercontent.com/mRzadzinski/cv-creator/main/src/img/screenshot.png',
 		description: (
 			<div>
-				It’s such a well-worn project idea that I needed some twist
-				to make it geek friendly (for myself of course).
+				It’s such a well-worn project idea that I needed some twist to make it
+				geek friendly (for myself of course).
 				<br />
 				<br />
-				The point where I haven’t used any front end framework before.
-				<br />
-				...
-				<br />
-				What are: REACT, JSX, props, state, hooks, unidirectional data flow,
-				conditional rendering, class and functional components?
-				<br />
-				...
-				<br />
-				Project finished.
+				My first exposure to React and concepts like: JSX, props, state, hooks
+				and above all - components.
 			</div>
 		),
 		liveLink: 'https://mrzadzinski.github.io/cv-creator/',
@@ -83,17 +75,9 @@ const projects = [
 		img: 'https://raw.githubusercontent.com/mRzadzinski/to-do-list/main/src/img/screenshot.png',
 		description: (
 			<div>
-				This code is a mess you say? I would agree.
-				<br />
-				Files could be shorter and more isolated? Correct.
-				<br />
-				But I resolved to make a replica of my favorite to-do list app and
-				couldn’t stop until it looked and worked (roughly) like the
-				archetype.
-				<br />
-				<br />
-				Now, after months of further practice I would have done it better, but
-				I’m proud of it anyway.
+				I resolved to make a replica of my favorite to-do list app and couldn’t
+				stop until it looked and worked (roughly) like the archetype. Back then
+				I didn't know any framework, so it's all done with vanilla JS.
 			</div>
 		),
 		liveLink: 'https://mrzadzinski.github.io/to-do-list/',
@@ -106,9 +90,9 @@ const projects = [
 		description: (
 			<div>
 				One of my first vanilla JS projects. After sketching it on paper it
-				turned out that I don't know how to implement approximately 95% of planned
-				features. Thanks to this experience I understood what this “problem
-				solving thing” actually is.
+				turned out that I don't know how to implement approximately 95% of
+				planned features. Thanks to this experience I understood what this
+				“problem solving thing” actually is.
 			</div>
 		),
 		liveLink: 'https://mrzadzinski.github.io/etch-a-sketch/',

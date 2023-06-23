@@ -4,7 +4,6 @@ import '../styles/About.scss';
 const About = () => {
 	return (
 		<div className='About'>
-			<div className='about-title'>About</div>
 			<img src='' alt='my-face' />
 			<div className='my-name'>Maciej Rzadzinski</div>
 			<div className='about-content'>

@@ -6,7 +6,6 @@ import projects from '../portfolio-data';
 const Portfolio = () => {
 	return (
 		<div className='Portfolio'>
-			<div className='portfolio-title'>Portfolio</div>
 			{projects.map((project) => (
 				<Project key={project.id} project={project} />
 			))}

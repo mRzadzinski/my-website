@@ -8,8 +8,6 @@ import englishFlag from '../img/english-flag.png';
 const Skills = () => {
 	return (
 		<div className='Skills'>
-			<div className='skills-title'>Skills</div>
-
 			<div className='skill-title'>Technologies</div>
 			<div className='skills-container'>
 				<Icon
@@ -48,7 +46,6 @@ const Skills = () => {
 			</div>
 
 			<div className='skill-title'>Bonus</div>
-
 		</div>
 	);
 };
