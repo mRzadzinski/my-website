@@ -5,13 +5,8 @@ import '../styles/Header.scss';
 const Header = () => {
 	return (
 		<div className='Header'>
-			<div className='title'>
-				<div className='title-name'>
-					<Link to='/about'>maciej rzadzinski</Link>
-				</div>
-				<div className='contact-info'>
-					<Link to='/contact'>contact</Link>
-				</div>
+			<div className='title-name'>
+				<Link to='/about'>maciej rzadzinski</Link>
 			</div>
 			<nav>
 				<div className='categories'>
@@ -32,6 +27,9 @@ const Header = () => {
 					</div>
 				</div>
 			</nav>
+			<div className='contact-info'>
+				<Link to='/contact'>contact</Link>
+			</div>
 		</div>
 	);
 };
