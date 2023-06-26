@@ -28,10 +28,11 @@ a:active {
 
 .title-name,
 .contact-info {
-	width: 8rem;
-	min-width: 8rem;
+	width: 14rem;
+	min-width: 14rem;
 
-	font-size: 0.95rem;
+	// font-size: 0.95rem;
+	font-size: 1.3rem;
 	font-weight: 300;
 
 	a {
@@ -65,7 +66,7 @@ nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 2rem;
+	gap: 4rem;
 
 	height: 100%;
 

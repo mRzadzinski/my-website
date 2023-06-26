@@ -44,17 +44,17 @@ const Header = () => {
 				<div className='categories'>
 					<NavLink to='/portfolio' className='navLink'>
 						<li ref={portfolio} className='category'>
-							Portfolio
+							portfolio
 						</li>
 					</NavLink>
 					<NavLink to='/skills' className='navLink'>
 						<li ref={skills} className='category'>
-							Skills
+							skills
 						</li>
 					</NavLink>
 					<NavLink to='/about' className='navLink'>
 						<li ref={about} className='category'>
-							About
+							about
 						</li>
 					</NavLink>
 				</div>
