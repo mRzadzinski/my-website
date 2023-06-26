@@ -62,8 +62,8 @@ const projects = [
 		description: (
 			<div>
 				This moment when you lose a game with an algorithm you have written
-				yourself - invaluable. How not to be excited/concerned about the current
-				pace of AI development?
+				yourself - invaluable. How not to be excited about the current pace of
+				AI development?
 			</div>
 		),
 		liveLink: 'https://mrzadzinski.github.io/battleship/',

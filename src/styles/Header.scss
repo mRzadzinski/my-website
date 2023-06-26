@@ -5,12 +5,13 @@
 	align-items: center;
 	justify-content: space-between;
 
-	padding-top: 1.5rem;
-	padding-bottom: 1.1rem;
-
+	padding-top: .8rem;
+	padding-bottom: .6rem;
 	border-bottom: solid 1px rgb(227, 227, 227);
 
-	font-size: 1rem;
+	font-size: 1.1rem;
+	font-weight: 300;
+	letter-spacing: .07rem;
 	color: rgb(80, 80, 80);
 
 	li {
@@ -30,10 +31,6 @@ a:active {
 .contact-info {
 	width: 14rem;
 	min-width: 14rem;
-
-	// font-size: 0.95rem;
-	font-size: 1.3rem;
-	font-weight: 300;
 
 	a {
 		&:hover {
@@ -58,19 +55,15 @@ nav {
 
 	height: 51px;
 	width: 100%;
-
-	font-size: 1.3rem;
 }
 
 .categories {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 4rem;
+	gap: 5rem;
 
 	height: 100%;
-
-	font-weight: 300;
 }
 
 .category-container {

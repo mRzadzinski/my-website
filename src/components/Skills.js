@@ -33,7 +33,7 @@ const Skills = () => {
 				<img id='jest-icon' src={jestIcon} alt='jest' />
 			</div>
 
-			<div className='skill-title'>Human languages</div>
+			<div className='skill-title'>Languages</div>
 			<div className='languages-container'>
 				<div className='language'>
 					<img className='flag' src={polishFlag} alt='polish-flag' />
@@ -46,6 +46,14 @@ const Skills = () => {
 			</div>
 
 			<div className='skill-title'>Bonus</div>
+			<ul>
+				<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+				<li>sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+				veniam, quis</li>
+				<li> nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+				commodo consequat</li>
+			</ul>
 		</div>
 	);
 };

@@ -1,8 +1,42 @@
 .Project {
-	padding: 2.5rem 0 4rem 0;
+	padding: 7rem 0 5rem 0;
+	width: 900px;
 	max-width: 900px;
 
 	border-bottom: solid 1px rgb(227, 227, 227);
+
+	&:nth-last-child(2) {
+		border: none;
+	}
+}
+
+.project-title-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	margin-bottom: 3rem;
+}
+
+.project-name {
+	font-size: 1.6rem;
+	font-weight: 600;
+	letter-spacing: .07rem;
+}
+
+.project-btns {
+	display: flex;
+	gap: 20px;
+
+	min-height: 100%;
+}
+
+.project-description {
+	margin-bottom: 3.5rem;
+
+	line-height: 1.7rem;
+	font-size: 1rem;
+	font-weight: 300;
 }
 
 .project-img-container {
@@ -17,54 +51,24 @@
 	width: 100%;
 }
 
-.project-name {
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-
-	font-size: 1.5rem;
-	font-weight: 400;
-}
-
-.project-description-container {
-	display: flex;
-	width: 100%;
-}
-
-.project-buttons-container {
-	display: flex;
-	flex-direction: column;
-	gap: 0.6rem;
-
-	width: 30%;
-
-	margin-left: 5%;
-}
-
-.project-description {
-	width: 70%;
-	line-height: 1.5rem;
-	font-size: 1.13rem;
-}
-
 // Button style from https://getcssscan.com/css-buttons-examples
 .project-link-btn {
 	width: 110px;
+	height: 30px;
 
 	appearance: none;
-	background-color: #fafbfc;
-	border: 1px solid rgba(27, 31, 35, 0.15);
+	background-color: #ffffff;
+	border: 1px solid rgba(27, 31, 35, 0.4);
 	border-radius: 6px;
 	box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0,
 		rgba(255, 255, 255, 0.25) 0 1px 0 inset;
 	box-sizing: border-box;
 	color: #24292e;
 	cursor: pointer;
-	display: inline-block;
 	font-family: -apple-system, system-ui, 'Segoe UI', Helvetica, Arial,
 		sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
-	font-size: 14px;
+	font-size: 12px;
 	font-weight: 500;
-	line-height: 20px;
 	list-style: none;
 	padding: 6px 16px;
 	position: relative;
@@ -107,3 +111,4 @@
 .project-link-btn:-webkit-details-marker {
 	display: none;
 }
+

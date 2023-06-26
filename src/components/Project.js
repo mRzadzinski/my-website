@@ -8,14 +8,9 @@ const Project = ({ project }) => {
 
 	return (
 		<div className='Project'>
-			<div className='project-img-container'>
-				<img className='project-image' src={project.img} alt='project-img' />
-			</div>
-			<div className='project-name'>{project.name}</div>
-
-			<div className='project-description-container'>
-				<div className='project-description'>{project.description}</div>
-				<div className='project-buttons-container'>
+			<div className='project-title-container'>
+				<div className='project-name'>{project.name}</div>
+				<div className='project-btns'>
 					<button
 						className='project-link-btn'
 						onClick={() => openInNewTab(project.liveLink)}
@@ -29,6 +24,11 @@ const Project = ({ project }) => {
 						Github repo
 					</button>
 				</div>
+			</div>
+
+			<div className='project-description'>{project.description}</div>
+			<div className='project-img-container'>
+				<img className='project-image' src={project.img} alt='project-img' />
 			</div>
 		</div>
 	);
