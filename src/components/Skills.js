@@ -2,8 +2,6 @@ import React from 'react';
 import '../styles/Skills.scss';
 import { Icon } from '@iconify/react';
 import jestIcon from '../img/jest-icon.png';
-import polishFlag from '../img/polish-flag.webp';
-import englishFlag from '../img/english-flag.png';
 
 const Skills = () => {
 	return (
@@ -33,8 +31,8 @@ const Skills = () => {
 
 			<div className='skill-title'>Languages</div>
 			<ul>
-				<li>Polish Native</li>
 				<li>English C1</li>
+				<li>Polish Native</li>
 			</ul>
 
 			<div className='skill-title'>Bonus</div>

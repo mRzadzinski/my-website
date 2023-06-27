@@ -47,7 +47,6 @@ const projects = [
 				It’s such a well-worn project idea that I needed some twist to make it
 				geek friendly (for myself of course).
 				<br />
-				<br />
 				My first exposure to React and concepts like: JSX, props, state, hooks
 				and above all - components.
 			</div>

@@ -5,11 +5,10 @@ const About = () => {
 	return (
 		<div className='About'>
 			<img src='' alt='my-face' />
-			<div className='my-name'>Maciej Rzadzinski</div>
 			<div className='about-content'>
 				Maybe I covered a distance <nobr>of 240 km (149 mi)</nobr> on a bike{' '}
 				<nobr>in a single day,</nobr> run a half marathon{' '}
-				<nobr>in 1 h 44 min</nobr> and do some weird yoga asanas, but deep in my
+				<nobr>in 1 h 44 min</nobr> and do some weird yoga asanas, <nobr>but deep</nobr> in my
 				heart I have always been <nobr>a geek.</nobr> Looking from the time
 				perspective, the majority of my school friendships were based on
 				computer related interests, and my cheeks have always been turning red

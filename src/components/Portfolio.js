@@ -4,13 +4,23 @@ import Project from './Project';
 import projects from '../portfolio-data';
 
 const Portfolio = () => {
+	function openInNewTab(url) {
+		window.open(url, '_blank').focus();
+	}
+
 	return (
 		<div className='Portfolio'>
 			<div className='portfolio-intro'>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-				veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-				commodo consequat.{' '}
+				Below you can find six projects I had the most fun with. Each of them
+				was an assignment from The Odin Project course; <nobr>however, I</nobr> allowed myself
+				to go beyond basic instructions and expanded functionality according to
+				my wild fantasies.
+				<br />
+				For more code feel free to visit my{' '}
+				<span onClick={() => openInNewTab('https://github.com/mRzadzinski')}>
+					github
+				</span>
+				.
 			</div>
 			{projects.map((project) => (
 				<Project key={project.id} project={project} />

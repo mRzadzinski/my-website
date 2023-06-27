@@ -10,7 +10,7 @@ const Footer = () => {
 
 	return (
 		<div className='Footer'>
-			<div className='email'>maciej.rzd@gmail.com</div>
+			<div className='email'>rzadzinski.maciej@gmail.com</div>
 			<div className='github'>
 				<img
 					onClick={() => openInNewTab('https://github.com/mRzadzinski')}

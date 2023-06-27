@@ -1,13 +1,20 @@
 import React from 'react';
 import '../styles/Contact.scss';
-import arrowIcon from '../img/arrow-down.png';
+import githubIcon from '../img/github.png';
+import linkedinIcon from '../img/linkedin.png';
 
 const Contact = () => {
+	function openInNewTab(url) {
+		window.open(url, '_blank').focus();
+	}
+
 	return (
 		<div className='Contact'>
-			<div className='arrow-container'>
-				<img id='arrow-down' src={arrowIcon} alt='arrow-down' />
-			</div>
+			rzadzinski.maciej@gmail.com
+			<br />
+			github
+			<br />
+			linkedin
 		</div>
 	);
 };

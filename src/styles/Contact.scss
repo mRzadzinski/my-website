@@ -1,21 +1,9 @@
 .Contact {
-	display: flex;
-	flex-direction: column;
-    align-items: center;
-
     width: 100%;
-    max-width: 900px;
-	padding: 0 4rem 0 4rem;
-}
+    max-width: 1000px;
+	padding: 7rem 4rem 0 4rem;
 
-.arrow-container {
-    display: flex;
-    align-items: flex-end;
-
-    height: 100%;
-    padding-bottom: 60px;
-}
-
-#arrow-down {
-	width: 100px;
+    line-height: 1.7rem;
+	font-size: 1rem;
+	font-weight: 300;
 }
