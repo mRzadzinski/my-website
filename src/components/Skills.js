@@ -13,15 +13,13 @@ const Skills = () => {
 				<Icon
 					icon='dashicons:html'
 					color='rgb(174 83 83)'
-					width='70'
-					height='70'
+					width='60'
+					height='60'
 				/>
-				<Icon icon='vaadin:css' color='#1f72b6' width='70' height='70' />
-				<Icon icon='logos:sass' width='70' height='70' />
-				<Icon icon='logos:javascript' width='70' height='70' />
+				<Icon icon='vaadin:css' color='#1f72b6' width='60' height='60' />
+				<Icon icon='logos:sass' width='60' height='60' />
+				<Icon icon='logos:javascript' width='60' height='60' />
 				<Icon icon='devicon:react-wordmark' width='70' height='70' />
-			</div>
-			<div className='skills-container' id='last-tech-row'>
 				<Icon icon='logos:git' width='70' height='70' />
 				<Icon icon='logos:github' width='70' height='70' />
 				<Icon
@@ -34,25 +32,23 @@ const Skills = () => {
 			</div>
 
 			<div className='skill-title'>Languages</div>
-			<div className='languages-container'>
-				<div className='language'>
-					<img className='flag' src={polishFlag} alt='polish-flag' />
-					<div className='language-name'>Polish Native</div>
-				</div>
-				<div className='language'>
-					<img className='flag' src={englishFlag} alt='english-flag' />
-					<div className='language-name'>English C1</div>
-				</div>
-			</div>
+			<ul>
+				<li>Polish Native</li>
+				<li>English C1</li>
+			</ul>
 
 			<div className='skill-title'>Bonus</div>
 			<ul>
 				<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-				<li>sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-				veniam, quis</li>
-				<li> nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-				commodo consequat</li>
+				<li>
+					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+					enim ad minim veniam, quis
+				</li>
+				<li>
+					{' '}
+					Nostradamus exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat
+				</li>
 			</ul>
 		</div>
 	);
