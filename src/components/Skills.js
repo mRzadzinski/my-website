@@ -37,16 +37,11 @@ const Skills = () => {
 
 			<div className='skill-title'>Bonus</div>
 			<ul>
-				<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-				<li>
-					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-					enim ad minim veniam, quis
-				</li>
-				<li>
-					{' '}
-					Nostradamus exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat
-				</li>
+				<li>Visual Studio Code</li>
+				<li>Slack environment 2.5 years</li>
+				<li>Microsoft Teams 3 months</li>
+				<li>Touch typing</li>
+				<li>A bit of management experience</li>
 			</ul>
 		</div>
 	);
