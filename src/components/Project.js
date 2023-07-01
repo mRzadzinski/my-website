@@ -6,17 +6,33 @@ const Project = ({ project }) => {
 		window.open(url, '_blank').focus();
 	}
 
+	let img;
+	if (project.img) {
+		img = <img className='project-image' src={project.img} alt='project-img' />;
+	} else {
+		img = null;
+	}
+
+	let liveBtn;
+	if (project.liveLink) {
+		liveBtn = (
+			<button
+				className='project-link-btn'
+				onClick={() => openInNewTab(project.liveLink)}
+			>
+				Check live!
+			</button>
+		);
+	} else {
+		liveBtn = null;
+	}
+
 	return (
 		<div className='Project'>
 			<div className='project-title-container'>
 				<div className='project-name'>{project.name}</div>
 				<div className='project-btns'>
-					<button
-						className='project-link-btn'
-						onClick={() => openInNewTab(project.liveLink)}
-					>
-						Check live!
-					</button>
+					{liveBtn}
 					<button
 						className='project-link-btn'
 						onClick={() => openInNewTab(project.githubLink)}
@@ -27,9 +43,7 @@ const Project = ({ project }) => {
 			</div>
 
 			<div className='project-description'>{project.description}</div>
-			<div className='project-img-container'>
-				<img className='project-image' src={project.img} alt='project-img' />
-			</div>
+			<div className='project-img-container'>{img}</div>
 		</div>
 	);
 };

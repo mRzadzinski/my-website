@@ -40,6 +40,22 @@ const projects = [
 	},
 	{
 		id: 3,
+		name: 'Knights Travails',
+		img: null,
+		description: (
+			<div>
+				There’s no UI to show, however this project pushed my brain capabilities
+				hard to conceive the solution.
+				<br />
+				Utilizing the Binary Tree concept, the program finds the shortest way
+				for chess knight from one square to another.
+			</div>
+		),
+		liveLink: null,
+		githubLink: 'https://github.com/mRzadzinski/knights-travails',
+	},
+	{
+		id: 4,
 		name: 'Obi-Wan CV creator',
 		img: 'https://raw.githubusercontent.com/mRzadzinski/cv-creator/main/src/img/screenshot.png',
 		description: (
@@ -54,8 +70,9 @@ const projects = [
 		liveLink: 'https://mrzadzinski.github.io/cv-creator/',
 		githubLink: 'https://github.com/mRzadzinski/cv-creator',
 	},
+
 	{
-		id: 4,
+		id: 5,
 		name: 'Battleship',
 		img: 'https://raw.githubusercontent.com/mRzadzinski/battleship/main/src/img/screenshot.png',
 		description: (
@@ -69,7 +86,7 @@ const projects = [
 		githubLink: 'https://github.com/mRzadzinski/battleship',
 	},
 	{
-		id: 5,
+		id: 6,
 		name: 'Google Tasks',
 		img: 'https://raw.githubusercontent.com/mRzadzinski/to-do-list/main/src/img/screenshot.png',
 		description: (
@@ -83,7 +100,7 @@ const projects = [
 		githubLink: 'https://github.com/mRzadzinski/to-do-list',
 	},
 	{
-		id: 6,
+		id: 7,
 		name: 'Etch A Sketch (+ Claude Monet mode)',
 		img: 'https://raw.githubusercontent.com/mRzadzinski/etch-a-sketch/main/img/interface.png',
 		description: (

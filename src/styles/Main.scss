@@ -3,17 +3,30 @@
 	align-items: center;
 	flex-direction: column;
 
-	padding: 2rem 4rem 4rem 4rem;
+	padding: 7rem 4rem 4rem 4rem;
 
 	max-width: 1000px;
-	line-height: 1.7rem;
-	font-size: 1rem;
+
+}
+
+.intro {
+	padding-bottom: 3rem;
+
+	line-height: 3.5rem;
+	font-size: 2.5rem;
 	font-weight: 300;
 }
 
 .more-about-me {
-	margin-top: 1rem;
+	margin-bottom: 1.8rem;
+}
+
+.more-about-me,
+.see-my-work {
 	width: 100%;
+
+	font-size: 1.1rem;
+	color: rgb(80, 80, 80);
 
 	a:hover {
 		text-decoration: underline;

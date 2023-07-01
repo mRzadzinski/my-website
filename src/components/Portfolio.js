@@ -11,7 +11,7 @@ const Portfolio = () => {
 	return (
 		<div className='Portfolio'>
 			<div className='portfolio-intro'>
-				Below you can find six projects I had the most fun with. Each of them
+				Below you can find seven projects I had the most fun with. Each of them
 				was an assignment from The Odin Project course; <nobr>however, I</nobr> allowed myself
 				to go beyond basic instructions and expanded functionality according to
 				my wild fantasies.
