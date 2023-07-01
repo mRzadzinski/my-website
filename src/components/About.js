@@ -6,33 +6,31 @@ const About = () => {
 		<div className='About'>
 			<div className='all-about-me'>
 				<div className='about-content'>
-					Maybe I covered a distance of 240 km (149 mi) on a bike
-					in a single day, run a half marathon
-					in 1 h 44 min and do some weird yoga asanas,
-					but deep in my heart I have always been
-					a geek. Looking from the time perspective, the majority
-					of my school friendships were based on computer related interests, and
-					my cheeks have always been turning red when reading about
-					the newest tech related achievements.
+					Physical challenges have always excited me - I cycled{' '}
+					<nobr>a distance</nobr> of 240 km (149 mi) in a single day, ran a <nobr>
+						half
+						marathon (1 h 44 min)
+					</nobr> and can do some weird yoga asanas. But it turned
+					out that solving logical, programmatic problems can be as addictive as
+					post-heavy-workout high.
 					<br />
 					<br />
-					So I embarked on an exciting journey to face my destiny and began to
-					learn to code.
+					So I embarked on an exciting journey and decided to become a software
+					developer.
 					<br />
 					<br />
-					Now, sentiments aside: I am the man who does the job.
+					Let's look at some recent facts:
 					<br />
 					<ul>
 						<li>
-							At my most recent workplace I was promoted twice, up to project
-							coordinator.
+							In my last job I was promoted twice, up to project coordinator.
 						</li>
 						<li>
 							I finished the intermediate JS path from The Odin Project Course.
 						</li>
 						<li>Improved my English from shaky B2 to usable C1.</li>
 						<li>Learned touch typing.</li>
-						<li>Practice playing guitar five days a week - it’s scheduled.</li>
+						<li>Practice playing guitar five days a week.</li>
 					</ul>
 					All of these things require effort, good organization and consistent
 					execution <nobr>- that’s what you can expect of me.</nobr>
