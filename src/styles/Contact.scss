@@ -4,6 +4,46 @@
 	padding: 7rem 4rem 0 4rem;
 
     line-height: 1.7rem;
-	font-size: 1rem;
+	font-size: 1.1rem;
 	font-weight: 300;
+}
+
+.see-my-icons {
+    display: flex;
+    gap: 1.1rem;
+}
+
+.icons-contact {
+    display: flex;
+}
+
+.mail-contact {
+    margin-bottom: 1.8rem;
+
+    #mail-contact {
+        font-weight: 500;
+        margin-left: .5rem;
+        letter-spacing: .07rem;
+    }
+}
+
+.social-media-icons-contact {
+	width: 1.4rem;
+	height: 1.4rem;
+
+	cursor: pointer;
+	transition: 0.3s;
+	opacity: 1;
+
+	&:hover {
+		transform: scale(1.1);
+	}
+}
+
+#linkedin-icon-contact {
+	transform: scale(.96);
+
+	&:hover {
+		transform: scale(1.1);
+	}
 }
