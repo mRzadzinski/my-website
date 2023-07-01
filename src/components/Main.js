@@ -8,8 +8,12 @@ const Main = () => {
 			<div className='intro'>
 				Hello, World!
 				<br />
-				I’m Maciej Rządziński - Front End Developer. I’m excited
-				about new technologies and making the world more interactive.
+				I'm Maciej Rządziński - <span>front end developer</span>,
+				<br />
+				excited about new technologies and making{' '}
+				<nobr>
+					the world more <span>interactive</span>{' '}
+				</nobr>.
 			</div>
 			<div className='more-about-me'>
 				<Link to='/about'>more about me</Link>
