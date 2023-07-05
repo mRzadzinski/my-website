@@ -28,7 +28,7 @@ const About = () => {
 						<li>
 							I finished the intermediate JS path from The Odin Project Course.
 						</li>
-						<li>Improved my English from shaky B2 to usable C1.</li>
+						<li>Improved my English from B2 to C1.</li>
 						<li>Learned touch typing.</li>
 						<li>Practice playing guitar five days a week.</li>
 					</ul>
