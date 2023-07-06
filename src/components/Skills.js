@@ -41,7 +41,6 @@ const Skills = () => {
 				<li>Slack 2.5 years of remote work</li>
 				<li>Microsoft Teams 3 months</li>
 				<li>Touch typing</li>
-				<li>A bit of management experience</li>
 			</ul>
 		</div>
 	);

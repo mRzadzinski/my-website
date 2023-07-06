@@ -45,7 +45,7 @@ const projects = [
 		description: (
 			<div>
 				There’s no UI to show, however this project pushed my brain capabilities
-				hard to conceive the solution.
+				hard to figure out the solution.
 				<br />
 				Utilizing the Binary Tree concept, the program finds the shortest way
 				for chess knight from one square to another.
