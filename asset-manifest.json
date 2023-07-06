@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.1e2eff8c.css",
-    "main.js": "/static/js/main.343fd62a.js",
-    "static/media/jest-icon.png": "/static/media/jest-icon.9daf39accdd99dd2be6b.png",
-    "static/media/github.png": "/static/media/github.e83053115fd0f31c246f.png",
-    "index.html": "/index.html",
-    "main.1e2eff8c.css.map": "/static/css/main.1e2eff8c.css.map",
-    "main.343fd62a.js.map": "/static/js/main.343fd62a.js.map"
+    "main.css": "/my-website/static/css/main.1e2eff8c.css",
+    "main.js": "/my-website/static/js/main.0182e435.js",
+    "static/media/jest-icon.png": "/my-website/static/media/jest-icon.9daf39accdd99dd2be6b.png",
+    "static/media/github.png": "/my-website/static/media/github.e83053115fd0f31c246f.png",
+    "index.html": "/my-website/index.html",
+    "main.1e2eff8c.css.map": "/my-website/static/css/main.1e2eff8c.css.map",
+    "main.0182e435.js.map": "/my-website/static/js/main.0182e435.js.map"
   },
   "entrypoints": [
     "static/css/main.1e2eff8c.css",
-    "static/js/main.343fd62a.js"
+    "static/js/main.0182e435.js"
   ]
 }
