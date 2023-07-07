@@ -40,6 +40,36 @@ const projects = [
 	},
 	{
 		id: 3,
+		name: 'Obi-Wan CV creator',
+		img: 'https://raw.githubusercontent.com/mRzadzinski/cv-creator/main/src/img/screenshot.png',
+		description: (
+			<div>
+				My first exposure to React and concepts like: JSX, props, state, hooks
+				and components.
+				<br />
+				I'm still amazed by how much better my life has become after learning a
+				front-end framework.
+			</div>
+		),
+		liveLink: 'https://mrzadzinski.github.io/cv-creator/',
+		githubLink: 'https://github.com/mRzadzinski/cv-creator',
+	},
+	{
+		id: 4,
+		name: 'Google Tasks',
+		img: 'https://raw.githubusercontent.com/mRzadzinski/to-do-list/main/src/img/screenshot.png',
+		description: (
+			<div>
+				I resolved to make a replica of my favorite to-do list app and couldn’t
+				stop until it looked and worked (roughly) like the archetype. Back then
+				I didn't know any framework, so it's all done with vanilla JS.
+			</div>
+		),
+		liveLink: 'https://mrzadzinski.github.io/to-do-list/',
+		githubLink: 'https://github.com/mRzadzinski/to-do-list',
+	},
+	{
+		id: 5,
 		name: 'Knights Travails',
 		img: null,
 		description: (
@@ -54,66 +84,35 @@ const projects = [
 		liveLink: null,
 		githubLink: 'https://github.com/mRzadzinski/knights-travails',
 	},
-	{
-		id: 4,
-		name: 'Obi-Wan CV creator',
-		img: 'https://raw.githubusercontent.com/mRzadzinski/cv-creator/main/src/img/screenshot.png',
-		description: (
-			<div>
-				It’s such a well-worn project idea that I needed some twist to make it
-				geek friendly (for myself of course).
-				<br />
-				My first exposure to React and concepts like: JSX, props, state, hooks
-				and above all - components.
-			</div>
-		),
-		liveLink: 'https://mrzadzinski.github.io/cv-creator/',
-		githubLink: 'https://github.com/mRzadzinski/cv-creator',
-	},
-
-	{
-		id: 5,
-		name: 'Battleship',
-		img: 'https://raw.githubusercontent.com/mRzadzinski/battleship/main/src/img/screenshot.png',
-		description: (
-			<div>
-				This moment when you lose a game with an algorithm you have written
-				yourself - invaluable. How not to be excited about the current pace of
-				AI development?
-			</div>
-		),
-		liveLink: 'https://mrzadzinski.github.io/battleship/',
-		githubLink: 'https://github.com/mRzadzinski/battleship',
-	},
-	{
-		id: 6,
-		name: 'Google Tasks',
-		img: 'https://raw.githubusercontent.com/mRzadzinski/to-do-list/main/src/img/screenshot.png',
-		description: (
-			<div>
-				I resolved to make a replica of my favorite to-do list app and couldn’t
-				stop until it looked and worked (roughly) like the archetype. Back then
-				I didn't know any framework, so it's all done with vanilla JS.
-			</div>
-		),
-		liveLink: 'https://mrzadzinski.github.io/to-do-list/',
-		githubLink: 'https://github.com/mRzadzinski/to-do-list',
-	},
-	{
-		id: 7,
-		name: 'Etch A Sketch (+ Claude Monet mode)',
-		img: 'https://raw.githubusercontent.com/mRzadzinski/etch-a-sketch/main/img/interface.png',
-		description: (
-			<div>
-				One of my first vanilla JS projects. After sketching it on paper it
-				turned out that I don't know how to implement approximately 95% of
-				planned features. Thanks to this experience I understood what this
-				“problem solving thing” actually is.
-			</div>
-		),
-		liveLink: 'https://mrzadzinski.github.io/etch-a-sketch/',
-		githubLink: 'https://github.com/mRzadzinski/etch-a-sketch',
-	},
+	// {
+	// 	id: 6,
+	// 	name: 'Battleship',
+	// 	img: 'https://raw.githubusercontent.com/mRzadzinski/battleship/main/src/img/screenshot.png',
+	// 	description: (
+	// 		<div>
+	// 			This moment when you lose a game with an algorithm you have written
+	// 			yourself - invaluable. How not to be excited about the current pace of
+	// 			AI development?
+	// 		</div>
+	// 	),
+	// 	liveLink: 'https://mrzadzinski.github.io/battleship/',
+	// 	githubLink: 'https://github.com/mRzadzinski/battleship',
+	// },
+	// {
+	// 	id: 7,
+	// 	name: 'Etch A Sketch (+ Claude Monet mode)',
+	// 	img: 'https://raw.githubusercontent.com/mRzadzinski/etch-a-sketch/main/img/interface.png',
+	// 	description: (
+	// 		<div>
+	// 			One of my first vanilla JS projects. After sketching it on paper it
+	// 			turned out that I don't know how to implement approximately 95% of
+	// 			planned features. Thanks to this experience I understood what this
+	// 			“problem solving thing” actually is.
+	// 		</div>
+	// 	),
+	// 	liveLink: 'https://mrzadzinski.github.io/etch-a-sketch/',
+	// 	githubLink: 'https://github.com/mRzadzinski/etch-a-sketch',
+	// },
 ];
 
 export default projects;
