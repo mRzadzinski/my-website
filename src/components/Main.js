@@ -19,7 +19,7 @@ const Main = () => {
 				<Link to='/about'>more about me</Link>
 			</div>
 			<div className='see-my-work'>
-				<Link to='/about'>see my work</Link>
+				<Link to='/portfolio'>see my work</Link>
 			</div>
 		</div>
 	);
