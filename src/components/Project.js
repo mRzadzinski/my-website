@@ -37,7 +37,7 @@ const Project = ({ project }) => {
 						className='project-link-btn'
 						onClick={() => openInNewTab(project.githubLink)}
 					>
-						Github repo
+						Github
 					</button>
 				</div>
 			</div>
