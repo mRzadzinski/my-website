@@ -28,7 +28,7 @@ const Contact = () => {
 					<img
 						onClick={() =>
 							openInNewTab(
-								'https://pl.linkedin.com/in/maciej-rz%C4%85dzi%C5%84ski-28450420b'
+								'https://www.linkedin.com/in/maciej-rzadzinski-28450420b/'
 							)
 						}
 						id='linkedin-icon-contact'
