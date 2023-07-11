@@ -78,7 +78,7 @@ const projects = [
 				hard to figure out the solution.
 				<br />
 				Utilizing the Binary Tree concept, the program finds the shortest way
-				for chess knight from one square to another.
+				for chess a knight from one square to another.
 			</div>
 		),
 		liveLink: null,
