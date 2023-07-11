@@ -1,5 +1,5 @@
 # My Website
 
-[Check live!](https://mrzadzinski.github.io/music-store/)
+[Check live!](http://mrzadzinski.github.io/my-website/)
 
 Find out more about my work, background and skills.
