@@ -1,18 +1,17 @@
 import React from 'react';
 import '../styles/About.scss';
+import myFace from '../img/my-face.jpg';
 
 const About = () => {
 	return (
 		<div className='About'>
 			<div className='all-about-me'>
 				<div className='about-content'>
-					Physical challenges have always excited me - I cycled{' '}
-					<nobr>a distance</nobr> of 240 km (149 mi) in a single day, ran a <nobr>
-						half
-						marathon (1 h 44 min)
-					</nobr> and can do some weird yoga asanas. But it turned
-					out that solving logical, programmatic problems can be as addictive as
-					post-heavy-workout high.
+					Challenges have always excited me - I cycled <nobr>a distance</nobr>{' '}
+					of 240 km (149 mi) in a single day, ran a half marathon{' '}
+					<nobr>(1 h 44 min)</nobr> and can do some weird yoga asanas. But it
+					turned out that solving logical, programmatic problems can be as
+					addictive as post-heavy-workout high.
 					<br />
 					<br />
 					So I embarked on an exciting journey and decided to become a software
@@ -38,7 +37,7 @@ const About = () => {
 
 				<img
 					id='my-face'
-					src='https://images.squarespace-cdn.com/content/v1/606e351a4a03ce5964baba18/2d5189da-edc4-4495-9bf3-f98d1d63789d/20210406_MelissaKelly-39.jpg'
+					src={myFace}
 					alt='my-face'
 				/>
 			</div>

@@ -12,8 +12,8 @@ const Main = () => {
 				<br />
 				excited about new technologies and making{' '}
 				<nobr>
-					the world more <span>interactive</span>{' '}
-				</nobr>.
+					the world more <span>interactive.</span>{' '}
+				</nobr>
 			</div>
 			<div className='more-about-me'>
 				<Link to='/about'>more about me</Link>
