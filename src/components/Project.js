@@ -20,7 +20,7 @@ const Project = ({ project }) => {
 				className='project-link-btn'
 				onClick={() => openInNewTab(project.liveLink)}
 			>
-				Check live!
+				Check live
 			</button>
 		);
 	} else {
