@@ -22,12 +22,13 @@ const About = () => {
 					<br />
 					<ul>
 						<li>
-							In my last job I was promoted twice, up to project coordinator.
+							I completed Harvard CS50 Course and JavaScript Path from The Odin Project
+							Course.
 						</li>
 						<li>
-							I finished the intermediate JS path from The Odin Project Course.
+							In my last job I was promoted twice, up to project coordinator.
 						</li>
-						<li>Improved my English from B2 to C1.</li>
+						<li>I improved my English from B2 to C1.</li>
 						<li>Learned touch typing.</li>
 						<li>Practice playing guitar five days a week.</li>
 					</ul>
@@ -35,11 +36,7 @@ const About = () => {
 					execution <nobr>- that’s what you can expect of me.</nobr>
 				</div>
 
-				<img
-					id='my-face'
-					src={myFace}
-					alt='my-face'
-				/>
+				<img id='my-face' src={myFace} alt='my-face' />
 			</div>
 		</div>
 	);
