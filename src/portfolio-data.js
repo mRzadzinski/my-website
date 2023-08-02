@@ -40,22 +40,6 @@ const projects = [
 	},
 	{
 		id: 3,
-		name: 'Obi-Wan CV creator',
-		img: 'https://raw.githubusercontent.com/mRzadzinski/cv-creator/main/src/img/screenshot.png',
-		description: (
-			<div>
-				My first exposure to React and concepts like: JSX, props, state, hooks
-				and components.
-				<br />
-				I'm still amazed by how much better my life has become after learning a
-				front-end framework.
-			</div>
-		),
-		liveLink: 'https://mrzadzinski.github.io/cv-creator/',
-		githubLink: 'https://github.com/mRzadzinski/cv-creator',
-	},
-	{
-		id: 4,
 		name: 'Google Tasks',
 		img: 'https://raw.githubusercontent.com/mRzadzinski/to-do-list/main/src/img/screenshot.png',
 		description: (
@@ -69,7 +53,7 @@ const projects = [
 		githubLink: 'https://github.com/mRzadzinski/to-do-list',
 	},
 	{
-		id: 5,
+		id: 4,
 		name: 'Knights Travails',
 		img: null,
 		description: (
@@ -84,6 +68,22 @@ const projects = [
 		liveLink: null,
 		githubLink: 'https://github.com/mRzadzinski/knights-travails',
 	},
+	// {
+	// 	id: 5,
+	// 	name: 'Obi-Wan CV creator',
+	// 	img: 'https://raw.githubusercontent.com/mRzadzinski/cv-creator/main/src/img/screenshot.png',
+	// 	description: (
+	// 		<div>
+	// 			My first exposure to React and concepts like: JSX, props, state, hooks
+	// 			and components.
+	// 			<br />
+	// 			I'm still amazed by how much better my life has become after learning a
+	// 			front-end framework.
+	// 		</div>
+	// 	),
+	// 	liveLink: 'https://mrzadzinski.github.io/cv-creator/',
+	// 	githubLink: 'https://github.com/mRzadzinski/cv-creator',
+	// },
 	// {
 	// 	id: 6,
 	// 	name: 'Battleship',
