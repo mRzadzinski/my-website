@@ -13,12 +13,42 @@
 
 .all-about-me {
 	display: flex;
+	flex-direction: row-reverse;
 }
 
 .about-content {
-padding-right: 4rem;
+	padding-right: 2rem;
 }
 
 #my-face {
 	width: 400px;
+}
+
+@media (max-width: 950px) {
+	.About {
+		padding: 4rem 2rem 2rem 2rem;
+	}
+
+	.about-content {
+		padding-right: 0;
+	}
+
+	.all-about-me {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#my-face {
+		margin-bottom: 2rem;
+	}
+}
+
+@media (max-width: 480px) {
+	.About {
+		padding: 2rem 1rem 1rem 1rem;
+	}
+
+	#my-face {
+		width: 250px;
+	}
 }
