@@ -29,8 +29,7 @@ a:active {
 
 .title-name,
 .contact-info {
-	width: 14rem;
-	min-width: 14rem;
+	width: 17rem;
 
 	a {
 		&:hover {
@@ -85,4 +84,25 @@ li.category {
 
 .fat-text {
 	font-weight: 500;
+}
+
+@media (max-width: 768px) {
+	.Header {
+		flex-wrap: wrap;
+		row-gap: 1rem;
+	}
+
+	.title-name,
+	.contact-info {
+		width: 100%;
+		text-align: center;
+		margin: 0;
+		margin-left: 1.56rem;
+	}
+
+	.categories {
+		width: 100%;
+		justify-content: space-around;
+		gap: 1rem;
+	}
 }
