@@ -18,7 +18,7 @@ const About = () => {
 					<div>
 						Challenges have always excited me - I cycled <nobr>a distance</nobr>{' '}
 						of 240 km (149 mi) in a single day, ran a half marathon{' '}
-						<nobr>(1 h 44 min)</nobr> and can do some weird yoga asanas. But it
+						<nobr>(1 h 44 min)</nobr> and can do some weird yoga asanas. To my amusement it
 						turned out that solving logical, programmatic problems can be as
 						addictive as post workout endorphins rush.
 						<br />
