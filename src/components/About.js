@@ -30,13 +30,13 @@ const About = () => {
 						Let's look at some things I've been doing recently:
 						<br />
 						<ul>
+							<li>Started learning Backend Development</li>
+							<li>Completed Frontend part of The Odin Project Course</li>
 							<li>Completed Harvard CS50 Course</li>
-							<li>Completed Frontend JS Path from The Odin Project Course</li>
 							<li>Improved my English from B2 to C1</li>
 							<li>Learned touch typing</li>
-							<li>Learn to play guitar</li>
 						</ul>
-						All of these things require effort, good organization and consistent
+						Each of the above points require effort, good organization and consistent
 						execution <nobr>- that’s what you can expect of me.</nobr>
 					</div>
 				</div>
