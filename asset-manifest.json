@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/my-website/static/css/main.9cc75b2d.css",
-    "main.js": "/my-website/static/js/main.610ee4cb.js",
+    "main.css": "/my-website/static/css/main.ef1c5982.css",
+    "main.js": "/my-website/static/js/main.c3b9edfe.js",
     "static/media/my-face-lg.jpg": "/my-website/static/media/my-face-lg.3410999bc28544fa45b0.jpg",
     "static/media/my-face-md.jpg": "/my-website/static/media/my-face-md.3f35d46f316ef93692a5.jpg",
     "static/media/my-face-sm.jpg": "/my-website/static/media/my-face-sm.608ba553ac55501a0a1f.jpg",
+    "static/media/tasks-sm.png": "/my-website/static/media/tasks-sm.d04ed393fe4ae8de41be.png",
     "static/media/jest-icon.png": "/my-website/static/media/jest-icon.9daf39accdd99dd2be6b.png",
     "static/media/github.png": "/my-website/static/media/github.e83053115fd0f31c246f.png",
     "index.html": "/my-website/index.html",
-    "main.9cc75b2d.css.map": "/my-website/static/css/main.9cc75b2d.css.map",
-    "main.610ee4cb.js.map": "/my-website/static/js/main.610ee4cb.js.map"
+    "main.ef1c5982.css.map": "/my-website/static/css/main.ef1c5982.css.map",
+    "main.c3b9edfe.js.map": "/my-website/static/js/main.c3b9edfe.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cc75b2d.css",
-    "static/js/main.610ee4cb.js"
+    "static/css/main.ef1c5982.css",
+    "static/js/main.c3b9edfe.js"
   ]
 }
