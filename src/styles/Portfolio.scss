@@ -12,7 +12,7 @@
 }
 
 .portfolio-intro {
-
+	width: 100%;
 	margin-top: 7rem;
 	padding-bottom: 5rem;
 
@@ -30,4 +30,20 @@
 
 .empty-space {
 	height: 3rem;
+}
+
+@media (max-width: 768px) {
+	.portfolio-intro {
+		margin-top: 3rem;
+		padding-bottom: 2rem;
+	}
+
+	.Portfolio {
+		margin-left: 1.5rem;
+		margin-right: 1.5rem;
+	}
+
+	.empty-space {
+		display: none;
+	}
 }

@@ -17,9 +17,9 @@ const Skills = () => {
 				<Icon icon='vaadin:css' color='#1f72b6' width='45' height='45' />
 				<Icon icon='logos:sass' width='45' height='45' />
 				<Icon icon='logos:javascript' width='45' height='45' />
-				<Icon icon='devicon:react-wordmark' width='45' height='45' />
-				<Icon icon='logos:git' width='55' height='55' />
-				<Icon icon='logos:github' width='55' height='55' />
+				<Icon icon='devicon:react-wordmark' width='45' height='46' />
+				<Icon icon='logos:git' width='55' height='70' />
+				<Icon icon='logos:github' width='55' height='67' />
 				<img id='jest-icon' src={jestIcon} alt='jest' />
 				<Icon
 					id='webpack-icon'

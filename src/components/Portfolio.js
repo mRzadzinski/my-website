@@ -11,14 +11,11 @@ const Portfolio = () => {
 	return (
 		<div className='Portfolio'>
 			<div className='portfolio-intro'>
-				Below you can find four projects I had the most fun with. Each of them
-				was an assignment from The Odin Project course; <nobr>however, I</nobr>{' '}
-				allowed myself to go beyond the instructions and expanded functionality
-				according to my wild fantasies.
+				Below you can find four projects I had the most fun with.
 				<br />
-				For more code feel free to visit my{' '}
+				For more code visit my{' '}
 				<span onClick={() => openInNewTab('https://github.com/mRzadzinski')}>
-					github
+					github page
 				</span>
 				.
 			</div>

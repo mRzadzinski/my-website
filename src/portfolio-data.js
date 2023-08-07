@@ -1,3 +1,5 @@
+import tasksImgSm from './img/tasks-sm.png';
+
 const projects = [
 	{
 		id: 1,
@@ -15,7 +17,7 @@ const projects = [
 				How to render a particular component on the url change? Oh, it's called
 				React Router... No problem.
 				<br />
-				React Testing Library? I haven’t used it yet, but give me a moment…
+				React Testing Library? Just give me a moment…
 			</div>
 		),
 		liveLink: 'https://mrzadzinski.github.io/music-store/',
@@ -41,7 +43,7 @@ const projects = [
 	{
 		id: 3,
 		name: 'Google Tasks',
-		img: 'https://raw.githubusercontent.com/mRzadzinski/to-do-list/main/src/img/screenshot.png',
+		img: tasksImgSm,
 		description: (
 			<div>
 				I resolved to make a replica of my favorite to-do list app and couldn’t
@@ -58,61 +60,16 @@ const projects = [
 		img: null,
 		description: (
 			<div>
-				There’s no UI to show, however this project pushed my brain capabilities
-				hard to figure out the solution.
+				There’s no UI to show, however this project required plenty of brain
+				work to apply newly learned CS skills.
 				<br />
 				Utilizing the Binary Tree concept, the program finds the shortest way
-				for chess a knight from one square to another.
+				for a chess knight from one square to another.
 			</div>
 		),
 		liveLink: null,
 		githubLink: 'https://github.com/mRzadzinski/knights-travails',
 	},
-	// {
-	// 	id: 5,
-	// 	name: 'Obi-Wan CV creator',
-	// 	img: 'https://raw.githubusercontent.com/mRzadzinski/cv-creator/main/src/img/screenshot.png',
-	// 	description: (
-	// 		<div>
-	// 			My first exposure to React and concepts like: JSX, props, state, hooks
-	// 			and components.
-	// 			<br />
-	// 			I'm still amazed by how much better my life has become after learning a
-	// 			front-end framework.
-	// 		</div>
-	// 	),
-	// 	liveLink: 'https://mrzadzinski.github.io/cv-creator/',
-	// 	githubLink: 'https://github.com/mRzadzinski/cv-creator',
-	// },
-	// {
-	// 	id: 6,
-	// 	name: 'Battleship',
-	// 	img: 'https://raw.githubusercontent.com/mRzadzinski/battleship/main/src/img/screenshot.png',
-	// 	description: (
-	// 		<div>
-	// 			This moment when you lose a game with an algorithm you have written
-	// 			yourself - invaluable. How not to be excited about the current pace of
-	// 			AI development?
-	// 		</div>
-	// 	),
-	// 	liveLink: 'https://mrzadzinski.github.io/battleship/',
-	// 	githubLink: 'https://github.com/mRzadzinski/battleship',
-	// },
-	// {
-	// 	id: 7,
-	// 	name: 'Etch A Sketch (+ Claude Monet mode)',
-	// 	img: 'https://raw.githubusercontent.com/mRzadzinski/etch-a-sketch/main/img/interface.png',
-	// 	description: (
-	// 		<div>
-	// 			One of my first vanilla JS projects. After sketching it on paper it
-	// 			turned out that I don't know how to implement approximately 95% of
-	// 			planned features. Thanks to this experience I understood what this
-	// 			“problem solving thing” actually is.
-	// 		</div>
-	// 	),
-	// 	liveLink: 'https://mrzadzinski.github.io/etch-a-sketch/',
-	// 	githubLink: 'https://github.com/mRzadzinski/etch-a-sketch',
-	// },
 ];
 
 export default projects;
