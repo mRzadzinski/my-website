@@ -28,10 +28,6 @@
 	}
 }
 
-.empty-space {
-	height: 3rem;
-}
-
 @media (max-width: 768px) {
 	.portfolio-intro {
 		margin-top: 3rem;
@@ -41,9 +37,5 @@
 	.Portfolio {
 		margin-left: 1.5rem;
 		margin-right: 1.5rem;
-	}
-
-	.empty-space {
-		display: none;
 	}
 }

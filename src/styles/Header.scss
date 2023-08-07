@@ -5,13 +5,13 @@
 	align-items: center;
 	justify-content: space-between;
 
-	padding-top: .8rem;
-	padding-bottom: .6rem;
+	padding-top: 0.8rem;
+	padding-bottom: 0.6rem;
 	border-bottom: solid 1px rgb(227, 227, 227);
 
 	font-size: 1.1rem;
 	font-weight: 300;
-	letter-spacing: .07rem;
+	letter-spacing: 0.07rem;
 	color: rgb(80, 80, 80);
 
 	li {
@@ -30,11 +30,10 @@ a:active {
 .title-name,
 .contact-info {
 	width: 17rem;
+	cursor: pointer;
 
-	a {
-		&:hover {
-			text-decoration: underline;
-		}
+	&:hover {
+		text-decoration: underline;
 	}
 }
 

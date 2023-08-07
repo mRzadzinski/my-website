@@ -3,7 +3,7 @@ import { NavLink, Link } from 'react-router-dom';
 import '../styles/Header.scss';
 import { useLocation } from 'react-router-dom';
 
-const Header = () => {
+const Header = ({footer}) => {
 	const titleName = useRef(null);
 	const portfolio = useRef(null);
 	const skills = useRef(null);
@@ -35,6 +35,20 @@ const Header = () => {
 		}
 	}
 
+	function highlightFooter() {
+		footer.current.style.transition = 'none';
+		footer.current.style.backgroundColor = 'pink';
+		footer.current.style.transition = 'all 5s';
+		footer.current.style.backgroundColor = 'white';
+	}
+
+	function scrollToBottom() {
+		window.scrollTo({
+			top: document.body.scrollHeight,
+			behavior: 'smooth',
+		});
+	}
+
 	return (
 		<div className='Header'>
 			<div ref={titleName} className='title-name'>
@@ -59,8 +73,15 @@ const Header = () => {
 					</NavLink>
 				</div>
 			</nav>
-			<div ref={contact} className='contact-info'>
-				<Link to='/contact'>contact</Link>
+			<div
+				ref={contact}
+				className='contact-info'
+				onClick={() => {
+					highlightFooter();
+					scrollToBottom();
+				}}
+			>
+				contact
 			</div>
 		</div>
 	);

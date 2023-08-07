@@ -22,7 +22,6 @@ const Portfolio = () => {
 			{projects.map((project) => (
 				<Project key={project.id} project={project} />
 			))}
-			<div className='empty-space'></div>
 		</div>
 	);
 };

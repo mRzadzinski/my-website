@@ -8,7 +8,7 @@
 	height: 5rem;
 	min-height: 5rem;
 
-	font-size: .9rem;
+	font-size: 0.9rem;
 	font-weight: 300;
 
 	border-top: solid 1px rgb(227, 227, 227);
@@ -16,12 +16,12 @@
 }
 
 .social-media-icons {
-	width: 1.4rem;
-	height: 1.4rem;
+	width: 1.5rem;
+	height: 1.5rem;
 
 	cursor: pointer;
 	transition: 0.3s;
-	opacity: .4;
+	opacity: 0.6;
 
 	&:hover {
 		transform: scale(1.1);
@@ -29,14 +29,33 @@
 }
 
 #linkedin-icon {
-	transform: scale(.96);
+	transform: scale(0.96);
 
 	&:hover {
 		transform: scale(1);
 	}
 }
 
-
 .email {
-	color: rgb(79, 79, 79);
+	position: relative;
+	cursor: pointer;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+#email-info {
+	display: none;
+	position: absolute;
+	bottom: 1.8rem;
+	width: 200px;
+
+	font-size: .8rem;
+	text-decoration: none;
+}
+
+#check-mark-icon {
+	display: none;
+	height: 15px;
 }

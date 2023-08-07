@@ -5,23 +5,24 @@ import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
 import About from './components/About';
 import Skills from './components/Skills';
-import Contact from './components/Contact';
 import Main from './components/Main';
+import { useRef } from 'react';
 
 function App() {
+	const footer = useRef(null);
+
 	return (
 		<div className='App'>
-			<Header />
+			<Header footer={footer} />
 			<div className='content'>
 				<Routes>
 					<Route path='/' element={<Main />} />
 					<Route path='/portfolio' element={<Portfolio />} />
 					<Route path='/about' element={<About />} />
 					<Route path='/skills' element={<Skills />} />
-					<Route path='/contact' element={<Contact />} />
 				</Routes>
 			</div>
-			<Footer />
+			<Footer ref={footer} />
 		</div>
 	);
 }
