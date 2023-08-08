@@ -88,17 +88,18 @@ const Header = ({ footer }) => {
 					</li>
 				</NavLink>
 			</ul>
-			<div
-				aria-description='Contact info is in the footer. Clicking this element will scroll the website all the way down to the footer.'
-				ref={contact}
-				className='contact-info'
-				onClick={() => {
-					clearTimeouts();
-					highlightFooter();
-					scrollToBottom();
-				}}
-			>
-				<span className='span-link-style' tabIndex={0}>
+			<div className='contact-info'>
+				<span
+					aria-description='Contact info is in the footer. Clicking this element will scroll the website all the way down to the footer.'
+					ref={contact}
+					onClick={() => {
+						clearTimeouts();
+						highlightFooter();
+						scrollToBottom();
+					}}
+					className='span-link-style'
+					tabIndex={0}
+				>
 					contact
 				</span>
 			</div>
