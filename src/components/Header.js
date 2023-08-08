@@ -38,6 +38,13 @@ const Header = ({ footer }) => {
 	let setTransition;
 	let makeWhite;
 	let removeTransition;
+
+	function clearTimeouts() {
+		if (setTransition) clearTimeout(setTransition);
+		if (makeWhite) clearTimeout(makeWhite);
+		if (removeTransition) clearTimeout(removeTransition);
+	}
+
 	function highlightFooter() {
 		footer.current.style.transition = 'none';
 		footer.current.style.backgroundColor = '#ff0069';
@@ -53,12 +60,6 @@ const Header = ({ footer }) => {
 		}, 5000);
 	}
 
-	function clearTimeouts() {
-		if (setTransition) clearTimeout(setTransition);
-		if (makeWhite) clearTimeout(makeWhite);
-		if (removeTransition) clearTimeout(removeTransition);
-	}
-
 	function scrollToBottom() {
 		footer.current.scrollIntoView();
 	}
@@ -69,7 +70,7 @@ const Header = ({ footer }) => {
 				<Link to='/'>maciej rzadzinski</Link>
 			</div>
 			<nav>
-				<div className='categories'>
+				<ul className='categories'>
 					<NavLink to='/portfolio' className='navLink'>
 						<li ref={portfolio} className='category' onClick={clearTimeouts}>
 							portfolio
@@ -85,7 +86,7 @@ const Header = ({ footer }) => {
 							about
 						</li>
 					</NavLink>
-				</div>
+				</ul>
 			</nav>
 			<div
 				ref={contact}
@@ -96,7 +97,7 @@ const Header = ({ footer }) => {
 					scrollToBottom();
 				}}
 			>
-				contact
+				<span tabIndex={0}>contact</span>
 			</div>
 		</div>
 	);

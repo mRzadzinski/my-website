@@ -4,19 +4,19 @@ import Project from './Project';
 import projects from '../portfolio-data';
 
 const Portfolio = () => {
-	function openInNewTab(url) {
-		window.open(url, '_blank').focus();
-	}
-
 	return (
 		<div className='Portfolio'>
 			<div className='portfolio-intro'>
 				Below you can find four projects I had the most fun with.
 				<br />
 				For more code visit my{' '}
-				<span onClick={() => openInNewTab('https://github.com/mRzadzinski')}>
+				<a
+					href='https://github.com/mRzadzinski'
+					target='_blank'
+					rel='noreferrer'
+				>
 					github page
-				</span>
+				</a>
 				.
 			</div>
 			{projects.map((project) => (

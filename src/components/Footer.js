@@ -46,7 +46,11 @@ const Footer = forwardRef((props, ref) => {
 				rzadzinski.maciej@gmail.com
 			</div>
 			<div className='github'>
-				<a href='https://github.com/mRzadzinski' target='_blank'>
+				<a
+					href='https://github.com/mRzadzinski'
+					target='_blank'
+					rel='noreferrer'
+				>
 					<img
 						className='social-media-icons'
 						src={githubIcon}
@@ -58,6 +62,7 @@ const Footer = forwardRef((props, ref) => {
 				<a
 					href='https://www.linkedin.com/in/maciej-rzadzinski-28450420b/'
 					target='_blank'
+					rel='noreferrer'
 				>
 					<img
 						id='linkedin-icon'
