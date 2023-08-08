@@ -8,7 +8,15 @@ const Project = ({ project }) => {
 
 	let img;
 	if (project.img) {
-		img = <img className='project-image' src={project.img} alt='project-img' />;
+		img = (
+			<img
+				className='project-image'
+				src={project.img}
+				alt='project-img'
+				width={project.imgWidth}
+				height={project.imgHeight}
+			/>
+		);
 	} else {
 		img = null;
 	}

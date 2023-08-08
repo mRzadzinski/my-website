@@ -5,6 +5,8 @@ const projects = [
 		id: 1,
 		name: 'Guitar-Gear online store',
 		img: 'https://github.com/mRzadzinski/music-store/raw/main/src/img/screenshot.png',
+		imgWidth: 1000,
+		imgHeight: 583,
 		description: (
 			<div>
 				What melts my heart are thick, slightly overdriven, electric blues solos
@@ -27,6 +29,8 @@ const projects = [
 		id: 2,
 		name: 'Music Album Memo',
 		img: 'https://github.com/mRzadzinski/music-album-memo/blob/main/src/img/screenshot.png?raw=true',
+		imgWidth: 1000,
+		imgHeight: 779,
 		description: (
 			<div>
 				For this project I had to face a major challenge - namely, pick 30 of my
@@ -44,6 +48,8 @@ const projects = [
 		id: 3,
 		name: 'Google Tasks',
 		img: tasksImgSm,
+		imgWidth: 300,
+		imgHeight: 617,
 		description: (
 			<div>
 				I resolved to make a replica of my favorite to-do list app and couldn’t

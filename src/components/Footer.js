@@ -1,10 +1,10 @@
-import React, { useRef } from 'react';
+import React, { forwardRef, useRef } from 'react';
 import '../styles/Footer.scss';
 import githubIcon from '../img/github.png';
 import linkedinIcon from '../img/linkedin.png';
 import checkMarkIcon from '../img/check-mark.png';
 
-const Footer = () => {
+const Footer = forwardRef((props, ref) => {
 	const emailInfo = useRef(null);
 	const checkMark = useRef(null);
 
@@ -27,7 +27,7 @@ const Footer = () => {
 	}
 
 	return (
-		<div className='Footer'>
+		<div className='Footer' ref={ref}>
 			<div
 				className='email'
 				onMouseEnter={showInfo}
@@ -69,6 +69,6 @@ const Footer = () => {
 			</div>
 		</div>
 	);
-};
+});
 
 export default Footer;

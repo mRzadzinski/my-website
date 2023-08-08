@@ -3,7 +3,7 @@ import { NavLink, Link } from 'react-router-dom';
 import '../styles/Header.scss';
 import { useLocation } from 'react-router-dom';
 
-const Header = ({footer}) => {
+const Header = ({ footer }) => {
 	const titleName = useRef(null);
 	const portfolio = useRef(null);
 	const skills = useRef(null);
@@ -35,39 +35,53 @@ const Header = ({footer}) => {
 		}
 	}
 
+	let setTransition;
+	let makeWhite;
+	let removeTransition;
 	function highlightFooter() {
 		footer.current.style.transition = 'none';
-		footer.current.style.backgroundColor = 'pink';
-		footer.current.style.transition = 'all 5s';
-		footer.current.style.backgroundColor = 'white';
+		footer.current.style.backgroundColor = '#ff0069';
+
+		setTransition = setTimeout(() => {
+			footer.current.style.transition = 'all 3s';
+		}, 100);
+		makeWhite = setTimeout(() => {
+			footer.current.style.backgroundColor = 'white';
+		}, 200);
+		removeTransition = setTimeout(() => {
+			footer.current.style.transition = 'none';
+		}, 5000);
+	}
+
+	function clearTimeouts() {
+		if (setTransition) clearTimeout(setTransition);
+		if (makeWhite) clearTimeout(makeWhite);
+		if (removeTransition) clearTimeout(removeTransition);
 	}
 
 	function scrollToBottom() {
-		window.scrollTo({
-			top: document.body.scrollHeight,
-			behavior: 'smooth',
-		});
+		footer.current.scrollIntoView();
 	}
 
 	return (
 		<div className='Header'>
-			<div ref={titleName} className='title-name'>
+			<div ref={titleName} className='title-name' onClick={clearTimeouts}>
 				<Link to='/'>maciej rzadzinski</Link>
 			</div>
 			<nav>
 				<div className='categories'>
 					<NavLink to='/portfolio' className='navLink'>
-						<li ref={portfolio} className='category'>
+						<li ref={portfolio} className='category' onClick={clearTimeouts}>
 							portfolio
 						</li>
 					</NavLink>
 					<NavLink to='/skills' className='navLink'>
-						<li ref={skills} className='category'>
+						<li ref={skills} className='category' onClick={clearTimeouts}>
 							skills
 						</li>
 					</NavLink>
 					<NavLink to='/about' className='navLink'>
-						<li ref={about} className='category'>
+						<li ref={about} className='category' onClick={clearTimeouts}>
 							about
 						</li>
 					</NavLink>
@@ -77,6 +91,7 @@ const Header = ({footer}) => {
 				ref={contact}
 				className='contact-info'
 				onClick={() => {
+					clearTimeouts();
 					highlightFooter();
 					scrollToBottom();
 				}}
