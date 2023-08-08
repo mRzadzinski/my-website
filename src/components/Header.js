@@ -87,6 +87,7 @@ const Header = ({ footer }) => {
 				</NavLink>
 			</ul>
 			<div
+				aria-description='Contact info is in the footer. Clicking this element will scroll the website all the way down to the footer.'
 				ref={contact}
 				className='contact-info'
 				onClick={() => {
