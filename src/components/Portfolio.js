@@ -6,7 +6,7 @@ import projects from '../portfolio-data';
 const Portfolio = () => {
 	return (
 		<div className='Portfolio'>
-			<div className='portfolio-intro'>
+			<section className='portfolio-intro'>
 				Below you can find four projects I had the most fun with.
 				<br />
 				For more code visit my{' '}
@@ -18,10 +18,12 @@ const Portfolio = () => {
 					github page
 				</a>
 				.
-			</div>
-			{projects.map((project) => (
-				<Project key={project.id} project={project} />
-			))}
+			</section>
+			<section>
+				{projects.map((project) => (
+					<Project key={project.id} project={project} />
+				))}
+			</section>
 		</div>
 	);
 };

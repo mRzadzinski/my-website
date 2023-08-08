@@ -50,22 +50,11 @@ a:active {
 	text-align: right;
 }
 
-nav {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-
-	height: 51px;
-	width: 100%;
-}
-
 .categories {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	gap: 5rem;
-
-	height: 100%;
 }
 
 .category-container {

@@ -1,6 +1,6 @@
 .About {
 	display: flex;
-	align-items: center;
+
 	flex-direction: column;
 
 	padding: 7rem 4rem 4rem 4rem;
@@ -18,10 +18,6 @@
 
 .about-content {
 	padding-right: 2rem;
-}
-
-#my-face {
-	width: 400px;
 }
 
 @media (max-width: 950px) {
@@ -49,7 +45,6 @@
 	}
 
 	#my-face {
-		width: 250px;
 		margin-bottom: 1rem;
 	}
 }

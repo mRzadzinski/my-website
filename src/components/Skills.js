@@ -5,9 +5,9 @@ import jestIcon from '../img/jest-icon.png';
 
 const Skills = () => {
 	return (
-		<div className='Skills'>
-			<div className='skill-title'>Technologies</div>
-			<div className='skills-container'>
+		<article className='Skills'>
+			<h1 className='skill-title'>Technologies</h1>
+			<p className='skills-container'>
 				<Icon
 					icon='dashicons:html'
 					color='rgb(174 83 83)'
@@ -27,22 +27,22 @@ const Skills = () => {
 					width='130'
 					height='130'
 				/>				
-			</div>
+			</p>
 
-			<div className='skill-title'>Languages</div>
+			<h1 className='skill-title'>Languages</h1>
 			<ul>
 				<li>English C1</li>
 				<li>Polish Native</li>
 			</ul>
 
-			<div className='skill-title'>Bonus</div>
+			<h1 className='skill-title'>Bonus</h1>
 			<ul>
 				<li>Visual Studio Code</li>
 				<li>Slack 2.5 years of remote work</li>
 				<li>Microsoft Teams 3 months</li>
 				<li>Touch typing</li>
 			</ul>
-		</div>
+		</article>
 	);
 };
 

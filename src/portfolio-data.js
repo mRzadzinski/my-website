@@ -8,7 +8,7 @@ const projects = [
 		imgWidth: 1000,
 		imgHeight: 583,
 		description: (
-			<div>
+			<p className='project-description'>
 				What melts my heart are thick, slightly overdriven, electric blues solos
 				from the 60s. That’s why the choice of what to offer in my mockup online
 				store was easy.
@@ -20,7 +20,7 @@ const projects = [
 				React Router... No problem.
 				<br />
 				React Testing Library? Just give me a moment…
-			</div>
+			</p>
 		),
 		liveLink: 'https://mrzadzinski.github.io/music-store/',
 		githubLink: 'https://github.com/mRzadzinski/music-store',
@@ -32,14 +32,14 @@ const projects = [
 		imgWidth: 1000,
 		imgHeight: 779,
 		description: (
-			<div>
+			<p className='project-description'>
 				For this project I had to face a major challenge - namely, pick 30 of my
 				favorite music albums. And it was a fun way to practice React functional
 				components with hooks.
 				<br />
 				<br />
 				Yes, I do use Spotify, how did you know that?
-			</div>
+			</p>
 		),
 		liveLink: 'https://mrzadzinski.github.io/music-album-memo/',
 		githubLink: 'https://github.com/mRzadzinski/music-album-memo',
@@ -51,11 +51,11 @@ const projects = [
 		imgWidth: 300,
 		imgHeight: 617,
 		description: (
-			<div>
+			<p className='project-description'>
 				I resolved to make a replica of my favorite to-do list app and couldn’t
 				stop until it looked and worked (roughly) like the archetype. Back then
 				I didn't know any framework, so it's all done with vanilla JS.
-			</div>
+			</p>
 		),
 		liveLink: 'https://mrzadzinski.github.io/to-do-list/',
 		githubLink: 'https://github.com/mRzadzinski/to-do-list',
@@ -65,13 +65,13 @@ const projects = [
 		name: 'Knights Travails',
 		img: null,
 		description: (
-			<div>
+			<p className='project-description'>
 				There’s no UI to show, however this project required plenty of brain
 				work to apply newly learned CS skills.
 				<br />
 				Utilizing the Binary Tree concept, the program finds the shortest way
 				for a chess knight from one square to another.
-			</div>
+			</p>
 		),
 		liveLink: null,
 		githubLink: 'https://github.com/mRzadzinski/knights-travails',

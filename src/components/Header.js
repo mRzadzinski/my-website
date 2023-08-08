@@ -65,29 +65,27 @@ const Header = ({ footer }) => {
 	}
 
 	return (
-		<div className='Header'>
+		<nav className='Header'>
 			<div ref={titleName} className='title-name' onClick={clearTimeouts}>
 				<Link to='/'>maciej rzadzinski</Link>
 			</div>
-			<nav>
-				<ul className='categories'>
-					<NavLink to='/portfolio' className='navLink'>
-						<li ref={portfolio} className='category' onClick={clearTimeouts}>
-							portfolio
-						</li>
-					</NavLink>
-					<NavLink to='/skills' className='navLink'>
-						<li ref={skills} className='category' onClick={clearTimeouts}>
-							skills
-						</li>
-					</NavLink>
-					<NavLink to='/about' className='navLink'>
-						<li ref={about} className='category' onClick={clearTimeouts}>
-							about
-						</li>
-					</NavLink>
-				</ul>
-			</nav>
+			<ul className='categories'>
+				<NavLink to='/portfolio' className='navLink'>
+					<li ref={portfolio} className='category' onClick={clearTimeouts}>
+						portfolio
+					</li>
+				</NavLink>
+				<NavLink to='/skills' className='navLink'>
+					<li ref={skills} className='category' onClick={clearTimeouts}>
+						skills
+					</li>
+				</NavLink>
+				<NavLink to='/about' className='navLink'>
+					<li ref={about} className='category' onClick={clearTimeouts}>
+						about
+					</li>
+				</NavLink>
+			</ul>
 			<div
 				ref={contact}
 				className='contact-info'
@@ -99,7 +97,7 @@ const Header = ({ footer }) => {
 			>
 				<span tabIndex={0}>contact</span>
 			</div>
-		</div>
+		</nav>
 	);
 };
 

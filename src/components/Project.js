@@ -36,9 +36,9 @@ const Project = ({ project }) => {
 	}
 
 	return (
-		<div className='Project'>
+		<article className='Project'>
 			<div className='project-title-container'>
-				<div className='project-name'>{project.name}</div>
+				<h1 className='project-name'>{project.name}</h1>
 				<div className='project-btns'>
 					{liveBtn}
 					<button
@@ -50,9 +50,9 @@ const Project = ({ project }) => {
 				</div>
 			</div>
 
-			<div className='project-description'>{project.description}</div>
+			{project.description}
 			<div className='project-img-container'>{img}</div>
-		</div>
+		</article>
 	);
 };
 

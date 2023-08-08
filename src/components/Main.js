@@ -4,8 +4,8 @@ import '../styles/Main.scss';
 
 const Main = () => {
 	return (
-		<div className='Main'>
-			<div className='intro'>
+		<main className='Main'>
+			<article className='intro'>
 				Hello, World!
 				<br />
 				I'm Maciej Rządziński - <span>front end developer</span>,
@@ -14,14 +14,14 @@ const Main = () => {
 				<nobr>
 					the world more <span>interactive.</span>{' '}
 				</nobr>
-			</div>
-			<div className='more-about-me'>
+			</article>
+			<p className='more-about-me'>
 				<Link to='/about'>more about me</Link>
-			</div>
-			<div className='see-my-work'>
+			</p>
+			<p className='see-my-work'>
 				<Link to='/portfolio'>see my work</Link>
-			</div>
-		</div>
+			</p>
+		</main>
 	);
 };
 

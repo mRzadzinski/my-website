@@ -14,14 +14,14 @@ function App() {
 	return (
 		<div className='App'>
 			<Header footer={footer} />
-			<div className='content'>
+			<main className='content'>
 				<Routes>
 					<Route path='/' element={<Main />} />
 					<Route path='/portfolio' element={<Portfolio />} />
 					<Route path='/about' element={<About />} />
 					<Route path='/skills' element={<Skills />} />
 				</Routes>
-			</div>
+			</main>
 			<Footer ref={footer} />
 		</div>
 	);
