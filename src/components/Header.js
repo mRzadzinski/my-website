@@ -67,7 +67,9 @@ const Header = ({ footer }) => {
 	return (
 		<nav className='Header'>
 			<div ref={titleName} className='title-name' onClick={clearTimeouts}>
-				<Link to='/'>maciej rzadzinski</Link>
+				<Link to='/'>
+					<span className='span-link-style'>maciej rzadzinski</span>
+				</Link>
 			</div>
 			<ul className='categories'>
 				<NavLink to='/portfolio' className='navLink'>
@@ -96,7 +98,9 @@ const Header = ({ footer }) => {
 					scrollToBottom();
 				}}
 			>
-				<span tabIndex={0}>contact</span>
+				<span className='span-link-style' tabIndex={0}>
+					contact
+				</span>
 			</div>
 		</nav>
 	);
