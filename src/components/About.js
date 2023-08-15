@@ -29,7 +29,6 @@ const About = () => {
 				Let's look at some things I've been doing recently:
 				<br />
 				<ul>
-					<li>Started learning Backend Development</li>
 					<li>Completed Frontend part of The Odin Project Course</li>
 					<li>Completed Harvard CS50 Course</li>
 					<li>Improved my English from B2 to C1</li>
