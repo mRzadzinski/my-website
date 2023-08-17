@@ -6,14 +6,11 @@ const Main = () => {
 	return (
 		<main className='Main'>
 			<article className='intro'>
-				Hello, World!
+				Hello World,
 				<br />
-				I'm Maciej Rządziński - <span>front end developer</span>,
+				I'm Maciej Rządziński - <span>frontend developer</span>,
 				<br />
-				excited about new technologies and making{' '}
-				<nobr>
-					the world more <span>interactive.</span>{' '}
-				</nobr>
+				making things work is what I do.
 			</article>
 			<p className='more-about-me'>
 				<Link to='/about'>more about me</Link>
